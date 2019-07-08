@@ -1,0 +1,314 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+p,
+li {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  border: none;
+  vertical-align: center;
+}
+strong {
+  font-weight: normal;
+}
+.hide {
+  display: none;
+}
+#banner {
+  width: 100%;
+  overflow: hidden;
+}
+#banner .list li {
+  width: 100%;
+}
+#banner .list li img {
+  width: 100%;
+}
+#main {
+  width: 100%;
+  padding-bottom: 65px;
+}
+#main .activity {
+  width: 100%;
+  height: 135px;
+  position: relative;
+}
+#main .activity .center {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main .activity .center .bar {
+  width: 144px;
+  height: 2px;
+  background: url("../images/bar.jpg") repeat-x;
+}
+#main .activity .center .text {
+  width: 144px;
+  color: #fff;
+  line-height: 44px;
+  background: #875252;
+  text-align: center;
+  margin: 0 20px;
+}
+#main .activity .more {
+  position: absolute;
+  right: 10px;
+  display: block;
+  line-height: 30px;
+  top: 52px;
+  color: #875252;
+}
+#main .works-list .work-row {
+  width: 100%;
+  height: 230px;
+  margin-bottom: 34px;
+  display: flex;
+  perspective: 800px;
+}
+#main .works-list .work-row .work {
+  flex: 1 1 auto;
+  margin-right: 34px;
+  transform-style: preserve-3d;
+  height: 230px;
+  position: relative;
+}
+#main .works-list .work-row .work:nth-last-child(1) {
+  margin: 0;
+}
+#main .works-list .work-row .work a {
+  display: block;
+  width: 100%;
+  position: absolute;
+  height: 230px;
+  left: 0;
+  top: 0;
+}
+#main .works-list .work-row .work img {
+  width: 100%;
+  height: 100%;
+}
+#main .article-main .article-list {
+  padding-right: 25px;
+}
+#main .article-main .article-list .article-item {
+  padding: 20px 0 17px;
+  display: flex;
+  border-bottom: 1px dotted #c2a57b;
+}
+#main .article-main .article-list .article-item .img-box {
+  width: 264px;
+  height: 172px;
+}
+#main .article-main .article-list .article-item .img-box img {
+  width: 100%;
+  height: 100%;
+}
+#main .article-main .article-list .article-item .text-main {
+  flex: 1 0 0;
+  margin-left: 16px;
+  color: #666;
+}
+#main .article-main .article-list .article-item .text-main .title {
+  font: 18px/36px "微软雅黑";
+}
+#main .article-main .article-list .article-item .text-main .title a {
+  color: #b08a59;
+}
+#main .article-main .article-list .article-item .text-main .article-category {
+  padding-bottom: 6px;
+}
+#main .article-main .article-list .article-item .text-main .article-category span {
+  margin-right: 5px;
+}
+#main .article-main .article-list .article-item .text-main .article-category a {
+  color: #666;
+}
+#main .article-main .article-list .article-item .text-main .article-description {
+  display: flex;
+  align-items: flex-start;
+}
+#main .article-main .article-list .article-item .text-main .article-description .title {
+  font-size: 14px;
+  line-height: normal;
+  margin-right: 7px;
+}
+#main .article-main .article-list .article-item .text-main .article-description .description {
+  color: #666;
+  width: 0;
+  flex: 1;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+#main .article-main .article-list .article-item .text-main .article-author .title {
+  margin-right: 6px;
+  font-size: 14px;
+}
+#main .article-main .article-list .article-item .text-main .other-info {
+  display: flex;
+  justify-content: space-between;
+}
+#main .article-main .article-list .article-item .text-main .other-info span {
+  line-height: 30px;
+}
+#main .article-main .article-list .article-item .text-main .other-info span .glyphicon {
+  position: relative;
+  top: 2px;
+}
+#main .article-main .article-list .article-item .text-main .other-info span em {
+  font-style: normal;
+}
+#main .self-main .content-wrap {
+  padding: 0 22px;
+  background: #875252;
+  color: #fff;
+  height: 420px;
+  overflow: hidden;
+  position: relative;
+}
+#main .self-main .content-wrap .content {
+  position: absolute;
+  padding: 0 22px;
+  left: 0;
+  top: 0;
+}
+#main .self-main .content-wrap .content .section {
+  padding: 15px;
+  border-bottom: 2px dotted #fff;
+}
+#main .self-main .content-wrap .content .section p {
+  line-height: 30px;
+}
+#main .life-list {
+  margin-top: 30px;
+}
+#main .life-list .list {
+  padding: 0 12px 0 20px;
+}
+#main .life-list .list .life {
+  display: flex;
+  padding-top: 20px;
+}
+#main .life-list .list .life .img-box {
+  width: 152px;
+  height: 120px;
+  overflow: hidden;
+  margin-right: 12px;
+}
+#main .life-list .list .life .img-box img {
+  width: 100%;
+  height: 100%;
+}
+#main .life-list .list .life .text-box {
+  flex: 1 0 0;
+}
+#main .life-list .list .life .text-box .text-title {
+  margin-top: 8px;
+}
+#main .life-list .list .life .text-box .text {
+  margin-top: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+#footer .top {
+  height: 62px;
+  line-height: 62px;
+  background: #875252;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+#footer .top .nav-list a {
+  color: #fff;
+}
+#footer .top .nav-list em {
+  margin: 0 8px;
+}
+#footer .bottom {
+  height: 211px;
+  background: #000;
+  color: #fff;
+}
+#footer .bottom .main-box {
+  padding-top: 40px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+#footer .bottom .main-box p {
+  height: 40px;
+  line-height: 40px;
+}
+#footer .bottom .main-box p em {
+  display: block;
+  width: 6em;
+  float: left;
+  margin: 0;
+  font-style: normal;
+}
+#footer .bottom .main-box p em.w3 {
+  letter-spacing: 0.33em;
+  /*  margin-right: -0.33em; */
+}
+#footer .bottom .main-box p span {
+  float: left;
+}
+#footer .bottom .main-box p a {
+  float: left;
+  color: #fff;
+}
+/*公用title*/
+.common-title {
+  border-bottom: 2px solid #875252;
+  padding-bottom: 12px;
+  height: 40px;
+  position: relative;
+}
+.common-title .big-bar {
+  float: left;
+  height: 25px;
+  width: 0;
+  border-left: 6px solid #875252;
+}
+.common-title .small-bar {
+  float: left;
+  height: 25px;
+  width: 0;
+  border-left: 2px solid #875252;
+  margin-left: 3px;
+}
+.common-title .text {
+  margin-left: 10px;
+  color: #875252;
+  float: left;
+}
+.common-title .more {
+  position: absolute;
+  right: 0;
+  line-height: 38px;
+  font-size: 14px;
+  color: #875252;
+}

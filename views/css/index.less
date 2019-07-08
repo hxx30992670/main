@@ -1,0 +1,306 @@
+@import "reset";
+.hide{
+  display: none;
+}
+
+#banner{
+  width: 100%;
+  overflow: hidden;
+  .list{
+    //width: 100%;
+    li{
+      width: 100%;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
+#main{
+  width: 100%;
+  padding-bottom: 65px;
+  .activity{
+    width: 100%;
+    height: 135px;
+    position: relative;
+    .center{
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .bar{
+        width: 144px;
+        height: 2px;
+        background: url("../images/bar.jpg")repeat-x ;
+      }
+      .text{
+        width: 144px;
+        color: #fff;
+        line-height: 44px;
+        background: #875252;
+        text-align: center;
+        margin: 0 20px;
+      }
+    }
+    .more{
+      position: absolute;
+      right: 10px;
+      display: block;
+      line-height: 30px;
+      top: 52px;
+      color: #875252;;
+    }
+  }
+  .works-list{
+    .work-row{
+      width: 100%;
+      height: 230px;
+      margin-bottom: 34px;
+      display: flex;
+      perspective: 800px;
+      .work{
+        flex: 1 1 auto;
+        margin-right: 34px;
+        transform-style: preserve-3d;
+        height: 230px;
+        position: relative;
+        &:nth-last-child(1){
+          margin: 0;
+        }
+        a{
+          display: block;
+          width: 100%;
+          position: absolute;
+          height: 230px;
+          left: 0;
+          top: 0;
+        }
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  .article-main{
+    .article-list{
+      padding-right: 25px;
+      .article-item{
+        padding: 20px 0 17px;
+        display: flex;
+        border-bottom: 1px dotted #c2a57b;
+        .img-box{
+          width: 264px;
+          height: 172px;
+          img{
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .text-main{
+          flex: 1 0 0;
+          margin-left: 16px;
+          color: #666;
+          .title{
+            font: 18px/36px "微软雅黑";
+            a{
+              color: #b08a59;
+            }
+          }
+          .article-category{
+            padding-bottom: 6px;
+            span{
+              margin-right: 5px;
+            }
+            a{
+              color: #666;
+            }
+          }
+          .article-description{
+            display: flex;
+            align-items: flex-start;
+            .title{
+              font-size: 14px;
+              line-height:normal;
+              margin-right: 7px;
+            }
+            .description{
+              color: #666;
+              width: 0;
+              flex: 1;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              overflow: hidden;
+            }
+          }
+          .article-author{
+            .title{
+              margin-right: 6px;
+              font-size: 14px;
+            }
+          }
+          .other-info{
+            display: flex;
+            justify-content: space-between;
+            span{
+              line-height: 30px;
+              .glyphicon{
+                position: relative;
+                top: 2px;
+              }
+              em{
+                font-style: normal;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .self-main{
+    .content-wrap{
+      padding: 0 22px;
+      background: #875252;
+      color: #fff;
+      height: 420px;
+      overflow: hidden;
+      position: relative;
+      .content {
+        position: absolute;
+        padding: 0 22px;
+        left: 0;
+        top: 0;
+        .section {
+          padding: 15px;
+          border-bottom: 2px dotted #fff;
+          p {
+            line-height: 30px;
+          }
+        }
+      }
+    }
+    
+  }
+  .life-list{
+    margin-top: 30px;
+    .list{
+      padding: 0 12px 0 20px;
+      .life{
+        display: flex;
+        padding-top: 20px;
+        .img-box{
+          width: 152px;
+          height: 120px;
+          overflow: hidden;
+          margin-right: 12px;
+          img{
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .text-box{
+          flex: 1 0 0;
+          .text-title{
+            margin-top: 8px;
+          }
+          .text{
+            margin-top: 12px;
+            display: -webkit-box;
+            -webkit-line-clamp: 4;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+  }
+}
+#footer{
+  .top{
+    height: 62px;
+    line-height: 62px;
+    background: #875252;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    .nav-list{
+      a {
+        color: #fff;
+      }
+
+      em {
+        margin: 0 8px;
+      }
+    }
+    
+  }
+  .bottom{
+    height: 211px;
+    background: #000;
+    color: #fff;
+    .main-box{
+      padding-top: 40px;
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      p{
+        height: 40px;
+        line-height: 40px;
+        em{
+          display: block;
+          width: 6em;
+          float: left;
+          margin: 0;
+          font-style: normal;
+          &.w3{
+            letter-spacing:0.33em;
+           /*  margin-right: -0.33em; */
+          }
+        }
+        span{
+          float: left;
+        }
+        a{
+          float: left;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+/*公用title*/
+.common-title{
+  border-bottom: 2px solid #875252;
+  padding-bottom: 12px;
+  height: 40px;
+  position: relative;
+  .big-bar{
+    float: left;
+    height: 25px;
+    width: 0;
+    border-left: 6px solid #875252;
+  }
+  .small-bar{
+    float: left;
+    height: 25px;
+    width: 0;
+    border-left: 2px solid #875252;
+    margin-left: 3px;
+  }
+  .text{
+    margin-left: 10px;
+    color: #875252;
+    float: left;
+  }
+  .more{
+    position: absolute;
+    right: 0;
+    line-height: 38px;
+    font-size: 14px;
+    color: #875252;
+  }
+}
